@@ -1,0 +1,38 @@
+* {
+  font-family: "Courier"
+}
+
+.county {
+  stroke: grey;
+  stroke-width: 0.3;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#legend-container {
+  fill: white;
+  opacity: 0.9;
+  stroke: grey;
+  stroke-width: 2;
+}
+
+#mapTitle {
+  font-size: 12px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 70px;
+  height: 45px;
+  padding: 2px;
+  font: 11px sans-serif;
+  background: white;
+  color: black;
+  border: 1px sol grey;
+  border-radius: 8px;
+  pointer-events: none;
+}
